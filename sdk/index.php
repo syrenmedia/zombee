@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"> 
-    <link rel="stylesheet" href="css/main.min.css"> 
+    <link rel="stylesheet" href="css/main.css"> 
   </head>
   <body>
 
@@ -24,8 +24,8 @@
         <ul>
           <li>
             <img src="images/patrick-campos.jpg" />
+            <h3>Patrick Campos</h3>
             <div class="info">
-              <h3>Patrick Campos</h3>
               <dl>
                 <dt>Former:</dt>
                 <dd>
@@ -47,8 +47,8 @@
           </li>
           <li>
             <img src="images/patrick-campos.jpg" />
+            <h3>Patrick Campos</h3>
             <div class="info">
-              <h3>Patrick Campos</h3>
               <dl>
                 <dt>Former:</dt>
                 <dd>
@@ -70,8 +70,8 @@
           </li>
           <li>
             <img src="images/patrick-campos.jpg" />
+            <h3>Patrick Campos</h3>
             <div class="info">
-              <h3>Patrick Campos</h3>
               <dl>
                 <dt>Former:</dt>
                 <dd>
@@ -93,8 +93,8 @@
           </li>
           <li>
             <img src="images/patrick-campos.jpg" />
+            <h3>Patrick Campos</h3>
             <div class="info">
-              <h3>Patrick Campos</h3>
               <dl>
                 <dt>Former:</dt>
                 <dd>
@@ -123,8 +123,8 @@
         <ul>
           <li>
             <img src="images/patrick-campos.jpg" />
+            <h3>Patrick Campos</h3>
             <div class="info">
-              <h3>Patrick Campos</h3>
               <dl>
                 <dt>Former:</dt>
                 <dd>
@@ -151,7 +151,7 @@
 
     <!--scripts-->
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-    <script src="js/main.min.js"></script>
+    <script src="js/main.js"></script>
     <!--scripts end-->
 
   </body>

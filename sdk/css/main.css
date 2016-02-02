@@ -11,7 +11,7 @@ body {
     header h1 {
       display: block;
       float: left;
-      padding: 10px 20px;
+      padding: 10px 10px;
       color: #fff;
       /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#264fbf+0,213ca8+100 */
       background: #264fbf; /* Old browsers */
@@ -33,8 +33,9 @@ body {
     color: dodgerblue;
   }
   .module {
-    width: 100%;
+    clear: both;
     float: left;
+    width: 90%;
     background-color: #f1f1f1;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -50,6 +51,7 @@ body {
     width: 32px;
     height: 32px;
     vertical-align: top;
+    border-radius: 10px;
   }
   .module hr {
     border-color: #000;
@@ -59,7 +61,7 @@ body {
   }
   .module ul {
     margin: 0;
-    margin-top: 20px;
+    margin-bottom: 10px;
     padding: 0;
     width: 100%;
     float: left;
@@ -68,22 +70,27 @@ body {
     .module ul > li {
       list-style-type: none;
       float: left;
-      margin-right: 2%;
-      margin-bottom: 20px;
+      margin: 10px;
+      padding: 10px 10px 5px 10px;
+      border-radius: 10px;
+      background-color: #ccc;
     }
     .module ul img {
+      float: left;
       width: 50px;
       height: 50px;
-      border: 1px solid #000;
       margin-right: 10px;
-      float: left;
+      border: 1px solid #000;
+      border-radius: 10px;
+    }
+    .module ul h3 {
+      margin-top: 0;
+      margin-bottom: 5px;
     }
     .module ul div.info {
       float: left;
-    }
-    .module ul h3 {
-      margin-bottom: 5px;
-      margin-top: 0;
+      padding-right: 5px;
+      margin-top: 5px;
     }
     .module ul dl {
       margin-top: 0;
