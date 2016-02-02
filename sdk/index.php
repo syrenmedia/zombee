@@ -17,7 +17,7 @@
     </header>
 
     <main>
-
+    <? for($o=0; $o<3; $o++): ?>
       <div class="module">
         <h2><img src="images/eardish-logo.png" /> Eardish Corporation <i class="arrow fa fa-angle-double-right"></i></h2>
         <hr/>
@@ -56,67 +56,7 @@
         <? endfor ?>
         </ul>
       </div>
-
-      <div class="module">
-        <h2><img src="images/fim-logo.png" /> Fox Interactive Media <i class="arrow fa fa-angle-double-right"></i></h2>
-        <hr>
-        <ul>
-          <li>
-            <img src="images/patrick-campos.jpg" />
-            <h3>Patrick Campos</h3>
-            <div class="info">
-              <dl>
-                <dt>Former:</dt>
-                <dd>
-                  Chief Strategy Officer, Member of Board of Directors<br/>
-                  Eardish Corporation
-                </dd>
-                <dt>Current:</dt>
-                <dd>
-                  Founder &amp; Chief Executive Officer<br/>
-                  The Belleau Wood Group
-                </dd>
-                <dt>Contact:</dt>
-                <dd>
-                  <a href="mailto:pcampos@bwginternational.com">pcampos@bwginternational.com</a><br/>
-                  +971-50-558-5207 (Dubai, UAE)
-                </dd>
-              </dl>
-            </div>
-          </li>
-        </ul>
-      </div>
-
-      <div class="module">
-        <h2><img src="images/nfn-logo.png" /> NewsFactor Network <i class="arrow fa fa-angle-double-right"></i></h2>
-        <hr>
-        <ul>
-          <li>
-            <img src="images/patrick-campos.jpg" />
-            <h3>Patrick Campos</h3>
-            <div class="info">
-              <dl>
-                <dt>Former:</dt>
-                <dd>
-                  Chief Strategy Officer, Member of Board of Directors<br/>
-                  Eardish Corporation
-                </dd>
-                <dt>Current:</dt>
-                <dd>
-                  Founder &amp; Chief Executive Officer<br/>
-                  The Belleau Wood Group
-                </dd>
-                <dt>Contact:</dt>
-                <dd>
-                  <a href="mailto:pcampos@bwginternational.com">pcampos@bwginternational.com</a><br/>
-                  +971-50-558-5207 (Dubai, UAE)
-                </dd>
-              </dl>
-            </div>
-          </li>
-        </ul>
-      </div>
-
+    <? endfor ?>
     </main>
 
     <!--scripts-->
