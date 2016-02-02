@@ -29,7 +29,7 @@ body {
     padding-right: 20px;
     margin-right: 20px;
   }
-  main a {
+  main a, main a:visited {
     color: dodgerblue;
   }
   .module {
@@ -48,8 +48,7 @@ body {
     cursor: pointer;
   }
   .module h2 img {
-    width: 32px;
-    height: 32px;
+    max-height: 32px;
     vertical-align: top;
     border-radius: 10px;
   }
@@ -73,7 +72,12 @@ body {
       margin: 10px;
       padding: 10px 10px 5px 10px;
       border-radius: 10px;
-      background-color: #ccc;
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+      background: #eeeeee; /* Old browsers */
+      background: -moz-linear-gradient(-45deg,  #eeeeee 0%, #cccccc 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(-45deg,  #eeeeee 0%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(135deg,  #eeeeee 0%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     }
     .module ul img {
       float: left;
@@ -84,10 +88,13 @@ body {
       border-radius: 10px;
     }
     .module ul h3 {
-      margin-top: 0;
-      margin-bottom: 5px;
+      float: left;
+    }
+    .module ul div.social {
+      float: left;
     }
     .module ul div.info {
+      clear: both;
       float: left;
       padding-right: 5px;
       margin-top: 5px;
@@ -101,6 +108,6 @@ body {
     }
     .module ul dd {
       margin-left: 0;
-      margin-bottom: 5px;
+      margin-bottom: 10px;
     }
 

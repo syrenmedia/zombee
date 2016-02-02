@@ -19,78 +19,48 @@
     <main>
 
       <div class="module">
-        <h2><img src="images/eardish-logo.png" /> Eardish <i class="fa fa-angle-double-right"></i></h2>
+        <h2><img src="images/eardish-logo.png" /> Eardish Corporation <i class="arrow fa fa-angle-double-right"></i></h2>
         <hr/>
         <ul>
+        <? for($i=0; $i<4; $i++): ?>
           <li>
             <img src="images/patrick-campos.jpg" />
             <h3>Patrick Campos</h3>
+            <div class="social">
+              <a href="http://www.bwgtrinity.com/"><i class="fa fa-info-circle"></i></a>
+              <a href="https://www.linkedin.com/in/patrick-f-campos-8188284"><i class="fa fa-linkedin-square"></i></a>
+              <a href="https://www.linkedin.com/in/patrick-f-campos-8188284"><i class="fa fa-facebook-square"></i></a>
+              <a href="https://www.linkedin.com/in/patrick-f-campos-8188284"><i class="fa fa-twitter-square"></i></a>
+              <a href="https://www.linkedin.com/in/patrick-f-campos-8188284"><i class="fa fa-google-plus-square"></i></a>
+            </div>
             <div class="info">
               <dl>
                 <dt>Former:</dt>
                 <dd>
                   Chief Strategy Officer, Member of Board of Directors<br/>
-                  Eardish Corporation
+                  <a href="http://www.eardish.com/">Eardish Corporation</a>
                 </dd>
                 <dt>Current:</dt>
                 <dd>
                   Founder &amp; Chief Executive Officer<br/>
-                  The Belleau Wood Group
+                  <a href="http://www.bwgtrinity.com/">The Belleau Wood Group</a>
                 </dd>
                 <dt>Contact:</dt>
                 <dd>
-                  <a href="mailto:pcampos@bwginternational.com">pcampos@bwginternational.com</a><br/>
-                  +971-50-558-5207 (Dubai, UAE)
+                  <i class="fa fa-envelope"></i> <a href="mailto:pcampos@bwginternational.com">pcampos@bwginternational.com</a><br/>
+                  <i class="fa fa-phone"></i> +971-50-558-5207 (Dubai, UAE)
                 </dd>
               </dl>
             </div>
           </li>
-          <li>
-            <img src="images/patrick-campos.jpg" />
-            <h3>Patrick Campos</h3>
-            <div class="info">
-              <dl>
-                <dt>Former:</dt>
-                <dd>
-                  Chief Strategy Officer, Member of Board of Directors<br/>
-                  Eardish Corporation
-                </dd>
-                <dt>Current:</dt>
-                <dd>
-                  Founder &amp; Chief Executive Officer<br/>
-                  The Belleau Wood Group
-                </dd>
-                <dt>Contact:</dt>
-                <dd>
-                  <a href="mailto:pcampos@bwginternational.com">pcampos@bwginternational.com</a><br/>
-                  +971-50-558-5207 (Dubai, UAE)
-                </dd>
-              </dl>
-            </div>
-          </li>
-          <li>
-            <img src="images/patrick-campos.jpg" />
-            <h3>Patrick Campos</h3>
-            <div class="info">
-              <dl>
-                <dt>Former:</dt>
-                <dd>
-                  Chief Strategy Officer, Member of Board of Directors<br/>
-                  Eardish Corporation
-                </dd>
-                <dt>Current:</dt>
-                <dd>
-                  Founder &amp; Chief Executive Officer<br/>
-                  The Belleau Wood Group
-                </dd>
-                <dt>Contact:</dt>
-                <dd>
-                  <a href="mailto:pcampos@bwginternational.com">pcampos@bwginternational.com</a><br/>
-                  +971-50-558-5207 (Dubai, UAE)
-                </dd>
-              </dl>
-            </div>
-          </li>
+        <? endfor ?>
+        </ul>
+      </div>
+
+      <div class="module">
+        <h2><img src="images/fim-logo.png" /> Fox Interactive Media <i class="arrow fa fa-angle-double-right"></i></h2>
+        <hr>
+        <ul>
           <li>
             <img src="images/patrick-campos.jpg" />
             <h3>Patrick Campos</h3>
@@ -118,7 +88,7 @@
       </div>
 
       <div class="module">
-        <h2><img src="images/eardish-logo.png" /> Eardish <i class="fa fa-angle-double-right"></i></h2>
+        <h2><img src="images/nfn-logo.png" /> NewsFactor Network <i class="arrow fa fa-angle-double-right"></i></h2>
         <hr>
         <ul>
           <li>
